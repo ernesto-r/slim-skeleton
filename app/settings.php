@@ -8,10 +8,10 @@ return [
             'extension' => 'php'           
         ],
         'database' => [
-            'host' => '127.0.0.1',
-            'username' => 'root',
+            'host' => '',
+            'username' => '',
             'password' => '',
-            'db' => 'projects',
+            'db' => '',
             'port' => 3306,
             'prefix' => '',
             'charset' => 'utf-8'
