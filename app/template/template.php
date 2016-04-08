@@ -1,14 +1,7 @@
 <html>
-    <head>
-        
-    </head>
+    <?php $this->insert('header',['header_data' => $data['header']]); ?>
     <body>
-        
-    <?php
-        include 'header.php';
-        include 'body.php';
-        include 'footer.php';        
-    ?>
+        <?php $this->insert('body',['body_data' => $data['body']]); ?>    
     </body>
-
+    <?php $this->insert('footer',['footer_data' => $data['footer']]); ?>
 </html>
