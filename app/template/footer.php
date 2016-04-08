@@ -1,1 +1,2 @@
-<h1>footer</h1>
+<h2>footer</h2>
+<?= $footer_data; ?>
