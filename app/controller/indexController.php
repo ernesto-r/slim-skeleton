@@ -8,7 +8,7 @@ class indexController extends abstractController {
         $model = new \App\Model\indexModel($this->db);
         $data = $model->getData();
         
-        $view = new \App\View\indexView('template',[
+        return $this->view->renderer('template',[
             'data' => $data
         ]);
     }
